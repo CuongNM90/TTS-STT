@@ -1,0 +1,4 @@
+flask
+whisper
+torch
+git+https://github.com/sonph/tts.git@v0.4

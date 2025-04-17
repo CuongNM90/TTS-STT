@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  tts-stt:
+    build: .
+    container_name: tts-stt
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./uploads:/app/uploads
+    restart: unless-stopped
